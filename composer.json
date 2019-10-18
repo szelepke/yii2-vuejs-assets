@@ -1,0 +1,29 @@
+{
+    "name": "szelepke/yii2-vuejs-assets",
+    "description": "Vue.js assets for Yii2 app",
+    "type": "yii2-extension",
+    "keywords": ["yii2","assets","vue","vuejs"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Szelepcsenyi Zsolt",
+            "email": "szelepcsenyi.zsolt@e-vista.hu",
+            "homepage": "https://evista.hu",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "npm-asset/vue": "*",
+        "npm-asset/vue-router": "*",
+        "npm-asset/vue-resource": "*",
+        "npm-asset/axios": "*",
+        "npm-asset/vue-notification": "*",
+        "npm-asset/vue-js-modal": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "szelepke\\vue\\": ""
+        }
+    }
+}
