@@ -24,5 +24,7 @@ Usage
 -----
 
 ```php
-<?php \szelepke\vue\VueAsset::register($this); ?>
+<?php
+ \szelepke\vue\VueAsset::register($this);
+?>
 ```
