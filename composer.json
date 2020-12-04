@@ -14,7 +14,7 @@
     ],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-        "npm-asset/vue": "*",
+        "npm-asset/vue": "2.6.12",
         "npm-asset/vue-router": "*",
         "npm-asset/vue-resource": "*",
         "npm-asset/axios": "*",
